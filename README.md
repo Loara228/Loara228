@@ -1,4 +1,16 @@
 
+
+![img](c/tabs.png)
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 # Hmm. We’re having trouble finding that site.
 
 We can’t connect to the server at `https://github.com/Loara228`.
@@ -10,7 +22,16 @@ If you entered the right address, you can:
 - Check that your browser has permission to access the web (you might be connected but behind a firewall)
 
 <br>
-<br>
 
 <a href="https://github.com/Loara228"><img align="right" src="c/btn.png"/></a>
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
