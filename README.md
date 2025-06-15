@@ -1,10 +1,7 @@
 
 
-![img](c/tabs.png)
+<kbd><img src="c/tabs.png"></img></kbd>
 
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>
@@ -25,11 +22,6 @@ If you entered the right address, you can:
 
 <a href="https://github.com/Loara228"><img align="right" src="c/btn.png"/></a>
 
-<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>
