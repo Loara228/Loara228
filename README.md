@@ -1,6 +1,6 @@
 
 
-<kbd><img src="c/tabs.png"></img></kbd>
+<!-- <kbd><img src="c/tabs.png"></img></kbd> -->
 
 <br>
 <br>
