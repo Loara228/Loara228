@@ -1,9 +1,10 @@
 use std::process::Command;
 
-use chrono::{Datelike, Days, NaiveDate};
+use chrono::{Days, NaiveDate};
 
 fn main() {
-
+    // fill();
+    // return;
     let shrug = 
 r#"⬛⬛⬛⬜⬜⬜⬜⬜⬜⬛⬜⬜⬜⬜⬜⬜⬜⬛⬜⬜⬜⬜⬜⬜⬛⬛⬛
 ⬜⬜⬜⬛⬜⬜⬜⬜⬛⬜⬜⬛⬜⬛⬜⬜⬜⬜⬛⬜⬜⬜⬜⬛⬜⬜⬜
@@ -39,6 +40,14 @@ r#"⬛⬛⬛⬜⬜⬜⬜⬜⬜⬛⬜⬜⬜⬜⬜⬜⬜⬛⬜⬜⬜⬜⬜⬜⬛�
             _ => panic!("?")
         }
         cur_x += 1;
+    }
+}
+
+fn fill() {
+    let mut d = NaiveDate::from_ymd_opt(2022, 1, 1).unwrap();
+    while d <= NaiveDate::from_ymd_opt(2022, 12, 31).unwrap() {
+        commit(d);
+        d = d.checked_add_days(Days::new(1)).unwrap();
     }
 }
 
